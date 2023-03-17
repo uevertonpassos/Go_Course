@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"  //organizando importação de bibliotecas 
+			//sempre um por linha 	
+)
 
 func main(){
 	x := 1
