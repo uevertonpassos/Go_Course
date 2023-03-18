@@ -7,8 +7,8 @@ import (
 
 func main() {
 
-	x := 30
-	y := 20
+	var x int8 = 30
+	var y int8 = 20
 
 	fmt.Println(importando.Numeros(3, 4))
 	fmt.Printf("%v + %v = %v e é um %T", x, y, x+y, x+y)
